@@ -1,0 +1,50 @@
+//****************************************************************************
+// git fetch origin
+//----------------------------------------------------------------------------
+// Updating origin/main branch regarding to online server repository.
+//****************************************************************************
+
+imac@iMacs-iMac GitRemote % git fetch origin
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 751 bytes | 375.00 KiB/s, done.
+From github.com:NihilisticMotif/GitRemote
+   56bf19e..49140c7  main       -> origin/main
+
+//****************************************************************************
+// git status
+//----------------------------------------------------------------------------
+// Git Status indicates that the main branch is behind the update comparing to 
+// origin/main branch and online repository.
+//****************************************************************************
+
+imac@iMacs-iMac GitRemote % git status
+On branch main
+Your branch is behind 'origin/main' by 1 commit, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+
+nothing to commit, working tree clean
+imac@iMacs-iMac GitRemote % git log --oneline
+56bf19e (HEAD -> main) Update Git_Tutorial
+accd59d Create README.md
+
+//****************************************************************************
+// git merge origin/main
+//----------------------------------------------------------------------------
+// marge origin/main and main branches together, so that the main branch in local
+// server is updated.
+//****************************************************************************
+
+imac@iMacs-iMac GitRemote % git merge origin/main
+Updating 56bf19e..49140c7
+Fast-forward
+ README.md | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+imac@iMacs-iMac GitRemote % git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+imac@iMacs-iMac GitRemote % 
