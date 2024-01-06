@@ -1,0 +1,20 @@
+//****************************************************************************
+// git pull
+//----------------------------------------------------------------------------
+// It is used for updating local repository regarding to online repository.
+// It is the combination of 'git fetch' and 'git merge origin/main'
+//****************************************************************************
+
+imac@iMacs-iMac GitRemote % git pull
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 793 bytes | 264.00 KiB/s, done.
+From github.com:NihilisticMotif/GitRemote
+   bbc72b7..86f116e  main       -> origin/main
+Updating bbc72b7..86f116e
+Fast-forward
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
+imac@iMacs-iMac GitRemote % 
