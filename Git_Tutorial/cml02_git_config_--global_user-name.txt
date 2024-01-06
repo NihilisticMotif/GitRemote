@@ -1,0 +1,10 @@
+//****************************************************************************
+// git config --global user.name
+//----------------------------------------------------------------------------
+// Specify user name and email.
+//****************************************************************************
+
+imac@iMacs-iMac GitRemote % cd GitRemote 
+imac@iMacs-iMac GitRemote % git config --global user.name "Nihilisticmotif"
+imac@iMacs-iMac GitRemote % git config --global user.email 'nemocheche@gmail.com'
+imac@iMacs-iMac GitRemote % 

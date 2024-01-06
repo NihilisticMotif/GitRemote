@@ -1,0 +1,14 @@
+//****************************************************************************
+// git log --oneline
+//----------------------------------------------------------------------------
+// In this case there is 2 branches.
+ 1. main 
+ * The current branch is main.
+ 2. origin/main 
+ * remote tracking branch 
+ * The purpose of this branch is for updating local git repository when
+   updating git local repository with the respect of online repository using git fetch.
+//****************************************************************************
+
+imac@iMacs-iMac GitRemote % git log --oneline
+accd59d (HEAD -> main, origin/main, origin/HEAD) Create README.md

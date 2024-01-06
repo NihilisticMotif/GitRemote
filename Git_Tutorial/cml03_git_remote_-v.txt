@@ -1,0 +1,21 @@
+//****************************************************************************
+// git remote 
+//----------------------------------------------------------------------------
+// Show remote name, 'origin' is the remote default name.
+//****************************************************************************
+
+imac@iMacs-iMac GitRemote % git remote
+origin
+imac@iMacs-iMac GitRemote % 
+
+//****************************************************************************
+// git remote -v
+//----------------------------------------------------------------------------
+// Show full location of remote.
+// In this case, both git fetch and git push both using 'NihilisticMotif/GitRemote.git' as the input.
+//****************************************************************************
+
+imac@iMacs-iMac GitRemote % git remote -v
+origin  git@github.com:NihilisticMotif/GitRemote.git (fetch)
+origin  git@github.com:NihilisticMotif/GitRemote.git (push)
+imac@iMacs-iMac GitRemote % 

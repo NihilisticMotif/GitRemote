@@ -1,0 +1,16 @@
+Me
+* Git Remote is the connection between the Git repository in the Github server and its copy in the personal computer. 
+  Git remote and Git repository can be clone in personal computer by git clone. 
+  It can be updated from personal computer by git push. 
+  The copy of repository in the personal computer can be updated (in the server version) by git fetch.
+
+ChatGPT
+* A Git remote is a reference to a remote repository, 
+  typically hosted on a server like GitHub. 
+  It doesn't necessarily represent the connection itself, but rather a short name assigned to a URL. 
+  The remote repository is a separate repository where you can collaborate with others or synchronize your work.
+  
+* git clone: Copies a remote repository to your local machine.
+* git push: Sends your local changes to the remote repository.
+* git fetch: Fetches changes from the remote repository to your local repository.
+* git pull: Fetches changes from the remote repository and automatically merges them into your local branch.
