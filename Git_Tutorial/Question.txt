@@ -1,0 +1,11 @@
+Question
+1. How can I make sure that when I update (`git fetch upstream`), I do not loss my modified files? 
+2. How to `git fetch upstream` only a specific folder in my git repository?
+* e.g. 
+ * MyGit
+  * A
+   * A1
+   * A2
+   * A3 // only get fetch upstream this folder
+  * B 
+  * C
