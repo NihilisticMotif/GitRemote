@@ -1,0 +1,17 @@
+Git fork is used when you want to develop other people's project, 
+but you do not have the permission to directly modify their code. 
+So you can copy their code by fork it in Github website (there is not 'git fork' command),
+Then using 'git clone' for cloning their code in your personal computer.
+
+After git commit and git push (update your work in your online forked repository), you have to 'pull request'
+the person who owned the original project will decide if they should utilize your code.
+
+There are 3 branchs to consider.
+1. main 
+* branch in your local computer.
+2. origin/main 
+* branch in your online fork (copied) repository.
+3. upstream/main 
+* branch of their online repository.
+
+You can also update the forked repository, regarding to their repository.

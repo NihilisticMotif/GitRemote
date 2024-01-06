@@ -1,0 +1,20 @@
+//****************************************************************************
+// git clone 
+//----------------------------------------------------------------------------
+// You should do 2 step before modifying repository, and after git clone 
+ 1. rm -rf .git
+ * A subfolder will not be added with git add . (or similar commands) if it contains a .git dir.
+ * selected the cloned git repository folder, then `rm -rf .git`
+ 2. You should rename the cloned folder 
+ https://stackoverflow.com/questions/32000525/git-not-adding-existing-folder
+ https://github.com/NihilisticMotif/FORKME/blob/main/Desktop/practice_git/ForkMe/Git_Tutorial/cml01_git_clone.txt
+//****************************************************************************
+
+imac@iMacs-iMac ForkMe % git clone git@github.com:NihilisticMotif/fork-me.git
+Cloning into 'fork-me'...
+remote: Enumerating objects: 2105, done.
+remote: Counting objects: 100% (771/771), done.
+remote: Compressing objects: 100% (268/268), done.
+remote: Total 2105 (delta 630), reused 540 (delta 465), pack-reused 1334
+Receiving objects: 100% (2105/2105), 2.02 MiB | 604.00 KiB/s, done.
+Resolving deltas: 100% (656/656), done.

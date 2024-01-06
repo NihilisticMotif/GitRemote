@@ -1,0 +1,12 @@
+//****************************************************************************
+// git remote add upstream [<the original repository, not the fork repository.>]
+//----------------------------------------------------------------------------
+//****************************************************************************
+
+imac@iMacs-iMac fork-me_io % git remote add upstream https://github.com/atapas/fork-me
+imac@iMacs-iMac fork-me_io % git remote -v
+origin  git@github.com:NihilisticMotif/FORKME.git (fetch)
+origin  git@github.com:NihilisticMotif/FORKME.git (push)
+upstream        https://github.com/atapas/fork-me (fetch)
+upstream        https://github.com/atapas/fork-me (push)
+imac@iMacs-iMac fork-me_io % 

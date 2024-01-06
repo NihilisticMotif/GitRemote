@@ -1,0 +1,11 @@
+//****************************************************************************
+// git remote -v
+//----------------------------------------------------------------------------
+// This command shows the input of `git fetch` and `git push` command.
+// In this case, it is my online repository (origin/main)
+//****************************************************************************
+
+imac@iMacs-iMac fork-me % git remote -v
+origin  git@github.com:NihilisticMotif/fork-me.git (fetch)
+origin  git@github.com:NihilisticMotif/fork-me.git (push)
+imac@iMacs-iMac fork-me % 

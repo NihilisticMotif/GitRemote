@@ -1,0 +1,63 @@
+//****************************************************************************
+// git fetch upstream
+//----------------------------------------------------------------------------
+// Update the repository regarding to the their project.
+//****************************************************************************
+
+imac@iMacs-iMac fork-me_io % git fetch upstream
+imac@iMacs-iMac fork-me_io % git checkout upstream/main
+A       Desktop/practice_git/GitRemote/.DS_Store
+A       Desktop/practice_git/GitRemote/GitRemote
+A       Desktop/practice_git/GitRemote/trashbin.txt
+Note: switching to 'upstream/main'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at 6bd1981 Merge pull request #744 from Moyo-Made/main
+imac@iMacs-iMac fork-me_io % git log --oneline
+6bd1981 (HEAD, upstream/main) Merge pull request #744 from Moyo-Made/main
+cd6293f Added a readme file to this directory
+c5a8eb2 Update README.md
+c5266b6 Merge pull request #653 from irfanmit/faisal_fork2
+063d04d added previous reademe.md
+57cf605 Merge pull request #690 from JohnRuben717/main
+a35b623 commit
+603622e Merge pull request #582 from sc123hk/main
+5ad4801 Merge pull request #638 from ThaboByteBox/main
+edb9d38 Merge pull request #639 from Montegan/my-branch
+8cae87d Merge pull request #640 from NeerajReddyK/main
+c87dfd1 Merge pull request #641 from Ibtesum/main
+b0670a3 Merge pull request #656 from DeexithParand2k2/fork-me-DeexithParand2k2-branch
+b6d3e72 Merge pull request #657 from jiayao99/main
+c229a6b Merge pull request #658 from varunrmantri23/main
+ee5ea1c Merge pull request #659 from priyanshusingh9694/main
+fa3115d Merge pull request #660 from sfsajid91/main
+61cd13d Merge pull request #661 from haldaranup/fork-me
+9154f47 Merge pull request #663 from deepakdnayak/main
+0258b96 Merge pull request #665 from Sajal123rocky/main
+5866cd1 Merge pull request #666 from ashllxyy/main
+977ff11 Merge pull request #667 from MrPurushotam/main
+65ef848 Merge pull request #668 from x3shat/main
+ef2eecc Merge pull request #669 from varshithab05/main
+efcb047 Merge pull request #671 from anjana-psvel/anj
+d09deb4 Merge pull request #672 from mr-premz/main
+845efab Merge pull request #673 from jakaya123/main
+2e49f90 Update Readme.md
+:
+
+imac@iMacs-iMac fork-me_io % git push origin main  
+Everything up-to-date
+imac@iMacs-iMac fork-me_io % 
